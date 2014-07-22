@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07187D9A177D38700005EC09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07187D99177D38700005EC09 /* UIKit.framework */; };
+		07187D9C177D38700005EC09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07187D9B177D38700005EC09 /* Foundation.framework */; };
+		07187D9E177D38700005EC09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07187D9D177D38700005EC09 /* CoreGraphics.framework */; };
+		07187DA4177D38700005EC09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07187DA2177D38700005EC09 /* InfoPlist.strings */; };
+		07187DA6177D38700005EC09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07187DA5177D38700005EC09 /* main.m */; };
+		07187DAA177D38700005EC09 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07187DA9177D38700005EC09 /* TAAppDelegate.m */; };
+		07187DAC177D38700005EC09 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07187DAB177D38700005EC09 /* Default.png */; };
+		07187DAE177D38700005EC09 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07187DAD177D38700005EC09 /* Default@2x.png */; };
+		07187DB0177D38700005EC09 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07187DAF177D38700005EC09 /* Default-568h@2x.png */; };
+		07187DB3177D38700005EC09 /* TAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07187DB2177D38700005EC09 /* TAViewController.m */; };
+		07187DB6177D38700005EC09 /* TAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07187DB4177D38700005EC09 /* TAViewController.xib */; };
+		07187DBE177D69840005EC09 /* TATriView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07187DBD177D69840005EC09 /* TATriView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07187D96177D38700005EC09 /* TriangleAni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriangleAni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07187D99177D38700005EC09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07187D9B177D38700005EC09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07187D9D177D38700005EC09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07187DA1177D38700005EC09 /* TriangleAni-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriangleAni-Info.plist"; sourceTree = "<group>"; };
+		07187DA3177D38700005EC09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07187DA5177D38700005EC09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07187DA7177D38700005EC09 /* TriangleAni-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TriangleAni-Prefix.pch"; sourceTree = "<group>"; };
+		07187DA8177D38700005EC09 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		07187DA9177D38700005EC09 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		07187DAB177D38700005EC09 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		07187DAD177D38700005EC09 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		07187DAF177D38700005EC09 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07187DB1177D38700005EC09 /* TAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAViewController.h; sourceTree = "<group>"; };
+		07187DB2177D38700005EC09 /* TAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAViewController.m; sourceTree = "<group>"; };
+		07187DB5177D38700005EC09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TAViewController.xib; sourceTree = "<group>"; };
+		07187DBC177D69840005EC09 /* TATriView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATriView.h; sourceTree = "<group>"; };
+		07187DBD177D69840005EC09 /* TATriView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATriView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07187D93177D38700005EC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07187D9A177D38700005EC09 /* UIKit.framework in Frameworks */,
+				07187D9C177D38700005EC09 /* Foundation.framework in Frameworks */,
+				07187D9E177D38700005EC09 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07187D8D177D38700005EC09 = {
+			isa = PBXGroup;
+			children = (
+				07187D9F177D38700005EC09 /* TriangleAni */,
+				07187D98177D38700005EC09 /* Frameworks */,
+				07187D97177D38700005EC09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07187D97177D38700005EC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07187D96177D38700005EC09 /* TriangleAni.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07187D98177D38700005EC09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07187D99177D38700005EC09 /* UIKit.framework */,
+				07187D9B177D38700005EC09 /* Foundation.framework */,
+				07187D9D177D38700005EC09 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07187D9F177D38700005EC09 /* TriangleAni */ = {
+			isa = PBXGroup;
+			children = (
+				07187DA8177D38700005EC09 /* TAAppDelegate.h */,
+				07187DA9177D38700005EC09 /* TAAppDelegate.m */,
+				07187DB1177D38700005EC09 /* TAViewController.h */,
+				07187DB2177D38700005EC09 /* TAViewController.m */,
+				07187DB4177D38700005EC09 /* TAViewController.xib */,
+				07187DA0177D38700005EC09 /* Supporting Files */,
+				07187DBC177D69840005EC09 /* TATriView.h */,
+				07187DBD177D69840005EC09 /* TATriView.m */,
+			);
+			path = TriangleAni;
+			sourceTree = "<group>";
+		};
+		07187DA0177D38700005EC09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07187DA1177D38700005EC09 /* TriangleAni-Info.plist */,
+				07187DA2177D38700005EC09 /* InfoPlist.strings */,
+				07187DA5177D38700005EC09 /* main.m */,
+				07187DA7177D38700005EC09 /* TriangleAni-Prefix.pch */,
+				07187DAB177D38700005EC09 /* Default.png */,
+				07187DAD177D38700005EC09 /* Default@2x.png */,
+				07187DAF177D38700005EC09 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07187D95177D38700005EC09 /* TriangleAni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07187DB9177D38700005EC09 /* Build configuration list for PBXNativeTarget "TriangleAni" */;
+			buildPhases = (
+				07187D92177D38700005EC09 /* Sources */,
+				07187D93177D38700005EC09 /* Frameworks */,
+				07187D94177D38700005EC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriangleAni;
+			productName = TriangleAni;
+			productReference = 07187D96177D38700005EC09 /* TriangleAni.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07187D8E177D38700005EC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = duan;
+			};
+			buildConfigurationList = 07187D91177D38700005EC09 /* Build configuration list for PBXProject "TriangleAni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07187D8D177D38700005EC09;
+			productRefGroup = 07187D97177D38700005EC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07187D95177D38700005EC09 /* TriangleAni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07187D94177D38700005EC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07187DA4177D38700005EC09 /* InfoPlist.strings in Resources */,
+				07187DAC177D38700005EC09 /* Default.png in Resources */,
+				07187DAE177D38700005EC09 /* Default@2x.png in Resources */,
+				07187DB0177D38700005EC09 /* Default-568h@2x.png in Resources */,
+				07187DB6177D38700005EC09 /* TAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07187D92177D38700005EC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07187DA6177D38700005EC09 /* main.m in Sources */,
+				07187DAA177D38700005EC09 /* TAAppDelegate.m in Sources */,
+				07187DB3177D38700005EC09 /* TAViewController.m in Sources */,
+				07187DBE177D69840005EC09 /* TATriView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07187DA2177D38700005EC09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07187DA3177D38700005EC09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07187DB4177D38700005EC09 /* TAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07187DB5177D38700005EC09 /* en */,
+			);
+			name = TAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07187DB7177D38700005EC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07187DB8177D38700005EC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07187DBA177D38700005EC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriangleAni/TriangleAni-Prefix.pch";
+				INFOPLIST_FILE = "TriangleAni/TriangleAni-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07187DBB177D38700005EC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriangleAni/TriangleAni-Prefix.pch";
+				INFOPLIST_FILE = "TriangleAni/TriangleAni-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07187D91177D38700005EC09 /* Build configuration list for PBXProject "TriangleAni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07187DB7177D38700005EC09 /* Debug */,
+				07187DB8177D38700005EC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07187DB9177D38700005EC09 /* Build configuration list for PBXNativeTarget "TriangleAni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07187DBA177D38700005EC09 /* Debug */,
+				07187DBB177D38700005EC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07187D8E177D38700005EC09 /* Project object */;
+}
